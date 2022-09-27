@@ -33,6 +33,23 @@ img{
     width: 20%;
 }
 
+.hr{
+    height: 3px;
+    width: 100px;
+    border-radius: 5px;
+    
+}
+.ab{
+    background-color: var(--light);
+}
+.fm{
+    background-color: var(--darker);
+}
+
+.icon{
+    margin:0 1rem;
+    font-size: 1.5rem;
+}
   
 i.fa-brands {
     border: 1px solid white;
@@ -40,4 +57,5 @@ i.fa-brands {
     border-radius: 50%;
   
 }
+
  
