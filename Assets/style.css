@@ -16,12 +16,17 @@ img{
     --dark: rgba(8, 11, 18, 1);
     --light: rgba(255, 255, 255, 1);
 }
-
+.c_primary{
+    color: var(--primary);
+}
 .bg_secondary{
     background-color: var(--secondary);
 }
 .bg_primary{
     background-color: var(--primary);
+}
+.bg_secondary-soft{
+    background-color: var(--secondary-soft);
 }
 
 .avatar{
