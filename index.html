@@ -11,10 +11,10 @@
   </head>
   <body>
     <!--header-->
-    <header class="bg_secondary">
+    <header>
   
-        <nav class="navbar text-uppercase navbar-expand-lg">
-            <div class="container-fluid">
+        <nav class="navbar navbar-dark text-uppercase navbar-expand-lg bg_secondary">
+            <div class="container-fluid ">
               <a class="navbar-brand text-white" href="#">Start Bootstrap</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -90,15 +90,15 @@
 
     <!--about-->
     <section class="about">
-    <div class="contaier-fluid bg-success text-white text-center p-5">
+    <div class="contaier-fluid bg_primary text-white text-center p-5">
         <h1>About</h1>
         <div class="container-sm container-md container-lg p-2">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quam corporis omnis esse in amet aut, quae dolores ratione repellendus.</p>
+                     <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quam corporis omnis esse in amet aut, quae dolores ratione repellendus.</p>
+                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                </div>
                
             </div>
@@ -109,8 +109,15 @@
 
     <!--about-->
     <section class="about">
-    <div class="contaier-sm container-md container-lg  text-center p-5">
-        <h1>Contact Me</h1>
+    <div class="contaier-fluid p-5">
+        <h1 class="text-center">Contact Me</h1>
+
+        <input class="form-control border-0 border-bottom" type="text" value="Name" aria-label="esempio di input di sola lettura" readonly="">
+    <input class="form-control border-0 border-bottom" type="email" value="Email Address" aria-label="esempio di input di sola lettura" readonly="">
+    <input class="form-control border-0 border-bottom" type="text" value="Phone number" aria-label="esempio di input di sola lettura" readonly="">
+    <label for="exampleFormControlTextarea1" class="form-label"></label>
+    <textarea class="form-control border-0 border-bottom" value="Message" id="exampleFormControlTextarea1" rows="3">Message</textarea>
+    <input class="btn btn-success" type="submit" value="Send">
     </div>
     </section>
     <!--end about-->
