@@ -32,22 +32,45 @@ img{
 .avatar{
     width: 20%;
 }
-
-.hr{
-    height: 3px;
-    width: 100px;
-    border-radius: 5px;
-    
-}
-.ab{
+.icon:before{
+    content:'';
+    height:10px;
+    width:25%;
+    display: inline-block;
     background-color: var(--light);
+    margin-right: 2rem;
+
 }
-.fm{
-    background-color: var(--darker);
+.icon:after{
+    content:'';
+    height:10px;
+    width:25%;
+    display: inline-block;
+    background-color: var(--light);
+    margin-left: 2rem;
+
 }
 
-.icon{
-    margin:0 1rem;
+.icon_bk:before{
+    content:'';
+    height:10px;
+    width:25%;
+    display: inline-block;
+    background-color: var(--dark);
+    margin-right: 2rem;
+
+}
+.icon_bk:after{
+    content:'';
+    height:10px;
+    width:25%;
+    display: inline-block;
+    background-color: var(--dark);
+    margin-left: 2rem;
+
+}
+
+.icon, .icon_bk{
     font-size: 1.5rem;
 }
   
