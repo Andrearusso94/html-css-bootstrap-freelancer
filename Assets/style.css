@@ -1,9 +1,23 @@
 *{
     box-sizing: border-box;
 }
-
+body{
+    background-color: aqua;
+}
 img{
     max-width: 100%;
 }
 
+:root{
+    --primary: rgba(26, 188, 156, 1);
+    --secondary:rgba(44, 62, 80, 1);
+    --secondary-soft:rgba(58, 84, 109, 1);
+    --darker:rgba(44, 62, 80, 1);
+    --dark: rgba(8, 11, 18, 1);
+    --light: rgba(255, 255, 255, 1);
+}
+
+.bg_primary{
+    background-color: var(--primary);
+}
  
